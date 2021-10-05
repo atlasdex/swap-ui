@@ -1,5 +1,8 @@
 import styles from "./home.module.css";
 import SwapCard from "./components/SwapCard";
+import warning from "../../assets/images/warning.svg";
+import horizontalArrows from "../../assets/images/arrows-h.svg";
+import verticalArrows from "../../assets/images/arrows-v.svg";
 
 const Home = () => {
   return (
@@ -13,18 +16,19 @@ const Home = () => {
               </div>
               <div className={styles.body}>
                 <SwapCard type="source" />
-                <div className={`m-3 ${styles.swapIcon}`}>o</div>
+                <img src={verticalArrows} className="mt-5" />
+                <div className={`m-3 ${styles.swapIcon}`}></div>
                 <SwapCard type="destination" />
 
                 <div className="w-100 mt-5">
                   <div className="d-flex">
                     <p className={styles.text}>Best Price</p>
                     <div className="d-flex" style={{ marginLeft: "auto" }}>
-                      <p>
+                      <p style={{ marginRight: 8 }}>
                         <b>0</b>
                       </p>
                       <div className={styles.arowsWrapper}>
-                        <p>=></p>
+                        <img src={horizontalArrows} />
                       </div>
                     </div>
                   </div>
@@ -53,6 +57,7 @@ const Home = () => {
                 <h2>Optimized Route</h2>
               </div>
               <div className={`${styles.body} h-100`}>
+                <img src={warning} className="m-2" width="60" />
                 <h4>No details of Routing Please</h4>
                 <p>
                   select your preferred chain, add some value and press Quote

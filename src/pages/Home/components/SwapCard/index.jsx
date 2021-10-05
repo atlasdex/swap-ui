@@ -6,6 +6,7 @@ import WalletModal from "../Modal";
 import etherumLogo from "../../../../assets/images/etherum.png";
 import bnbLogo from "../../../../assets/images/bnb.png";
 import solLogo from "../../../../assets/images/sol.png";
+import tick from "../../../../assets/images/tick.svg";
 
 const SwapCard = ({ type }) => {
   const [visible, setVisible] = useState(false);
@@ -24,7 +25,7 @@ const SwapCard = ({ type }) => {
         <div className={`${styles.iconContainer} ${styles.active}`}>
           <img src={etherumLogo} alt="eth logo" />
           <div className={styles.check}>
-            <p>•</p>
+            <img src={tick} />
           </div>
         </div>
         <div className={`${styles.iconContainer}`}>

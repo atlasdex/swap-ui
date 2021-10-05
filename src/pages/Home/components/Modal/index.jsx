@@ -3,17 +3,13 @@ import styles from "./wallet-modal.module.css";
 import etherumLogo from "../../../../assets/images/etherum.png";
 import bnbLogo from "../../../../assets/images/bnb.png";
 import solLogo from "../../../../assets/images/sol.png";
+import cancelIcon from "../../../../assets/images/cancel.png";
 
 function WalletModal({ visible, setVisible }) {
   return (
     <Modal show={visible} onHide={() => setVisible(false)}>
-      <div className="d-flex w-100 p-2 pb-0">
-        <p
-          style={{ marginLeft: "auto", marginBottom: 0 }}
-          onClick={() => setVisible(false)}
-        >
-          close
-        </p>
+      <div className="d-flex justify-content-end w-100 p-2 pb-0">
+        <img src={cancelIcon} width={20} onClick={() => setVisible(false)} />
       </div>
       <Modal.Body>
         <h4>Connect Wallet(s)</h4>

@@ -54,9 +54,8 @@
 
 .check {
   position: absolute;
-  bottom: -20px;
+  bottom: 0px;
   right: -8px;
-  color: red;
   font-size: 60px;
 }
 
