@@ -131,10 +131,7 @@ function Liquidity() {
               style={{ height: "inherit", marginTop: 10 }}
             >
               <div className={`d-flex justify-content-center p-5`}>
-                <img
-                  src="https://www.kindpng.com/picc/m/713-7139951_growth-line-graph-png-transparent-png.png"
-                  width="50%"
-                />
+                Graph Here
               </div>
             </div>
           </div>
