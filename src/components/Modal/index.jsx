@@ -1,9 +1,10 @@
 import { Modal, Tabs, Tab } from "react-bootstrap";
 import styles from "./wallet-modal.module.css";
-import etherumLogo from "../../../../assets/images/etherum.png";
-import bnbLogo from "../../../../assets/images/bnb.png";
-import solLogo from "../../../../assets/images/sol.png";
-import cancelIcon from "../../../../assets/images/cancel.png";
+
+import etherumLogo from "../../assets/images/etherum.png";
+import bnbLogo from "../../assets/images/bnb.png";
+import solLogo from "../../assets/images/sol.png";
+import cancelIcon from "../../assets/images/cancel.png";
 
 function WalletModal({ visible, setVisible }) {
   return (

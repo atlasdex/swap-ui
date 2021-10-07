@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Form } from "react-bootstrap";
 import styles from "./swap-card.module.css";
 
-import WalletModal from "../Modal";
+import WalletModal from "../../../../components/Modal";
 import etherumLogo from "../../../../assets/images/etherum.png";
 import bnbLogo from "../../../../assets/images/bnb.png";
 import solLogo from "../../../../assets/images/sol.png";

@@ -1,0 +1,98 @@
+.swapContainer {
+  border: solid 1px #333;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.header {
+  background: #e6e1e1 0% 0% no-repeat padding-box;
+  border-bottom: solid 1px #333;
+  border-radius: 10px 10px 0px 0px;
+  padding: 16px;
+}
+
+.header h2 {
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.body {
+  padding: 0 4%;
+  width: 100%;
+}
+
+.coinContainer {
+  background-color: #efefef;
+  border: solid 1px #333;
+  border-radius: 8px;
+  padding: 4px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.bottomText p {
+  color: #858585;
+}
+
+.bottomText p:nth-child(2) {
+  font-weight: bold;
+  color: black;
+}
+
+.button {
+  background-color: #efefef;
+  color: #333;
+  border: solid 1px #858585;
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.details {
+  border: solid 1px #858585;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.details h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.coinDetails {
+  width: 100px;
+}
+
+.coinDetails p {
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+
+.rev {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.coinName {
+  color: #858585;
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.value {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}

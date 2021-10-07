@@ -1,3 +1,4 @@
+import { Nav } from "react-bootstrap";
 import styles from "./home.module.css";
 import SwapCard from "./components/SwapCard";
 import warning from "../../assets/images/warning.svg";

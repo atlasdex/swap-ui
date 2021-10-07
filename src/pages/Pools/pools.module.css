@@ -1,0 +1,44 @@
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  border-left: 0 !important;
+  border-radius: 0 10px 10px 0 !important;
+  padding: 16px 10px !important;
+}
+
+.select {
+  border-radius: 0 !important;
+  border: solid 1px #333;
+  border-radius: 10px 0 0px 10px !important;
+}
+
+.connectedText {
+  background-color: #efefef;
+}
+
+.connectButton {
+  width: 100%;
+  border: solid 1px #333;
+  background-color: #3e3e3e;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.infoContainer {
+  margin-top: 30px;
+}
+
+.infoDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoDetails h4 {
+  color: #858585;
+  font-size: medium;
+}
