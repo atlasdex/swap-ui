@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // const Home = lazy(() => import("./views/Home"));
 const Swap = lazy(() => import("./views/Swap"));
+const Pools = lazy(() => import("./views/Pools"));
 
 const App: React.FC = () => {
   useFetchPublicData();
@@ -25,6 +26,9 @@ const App: React.FC = () => {
           <Switch>
             <Route path="/" exact>
               <Swap />
+            </Route>
+            <Route path="/pools" exact>
+              <Pools />
             </Route>
           </Switch>
         </Web3ReactManager>
