@@ -9,6 +9,7 @@ import SuspenseWithChunkError from "./components/SuspenseWithChunkError";
 import Web3ReactManager from "components/Web3ReactManager";
 import { useFetchPublicData } from "state/hooks";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "components/Navbar";
 
 // const Home = lazy(() => import("./views/Home"));
 const Swap = lazy(() => import("./views/Swap"));
@@ -22,6 +23,8 @@ const App: React.FC = () => {
       <GlobalStyle />
       <SuspenseWithChunkError fallback={<PageLoader />}>
         {/* <Header /> */}
+        <Navbar />
+
         <Web3ReactManager>
           <Switch>
             <Route path="/" exact>
