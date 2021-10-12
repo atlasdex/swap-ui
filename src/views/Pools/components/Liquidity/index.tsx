@@ -28,6 +28,7 @@ const ExchangeSection = ({ coin, icon }) => {
             <img
               src={icon}
               width={20}
+              alt=""
               style={{ borderRadius: "50%", marginRight: 6 }}
             />
             {coin}
@@ -125,6 +126,7 @@ function Liquidity() {
                   <Flex alignItems="center" width="100px">
                     <img
                       src={solIcon}
+                      alt=""
                       style={{ borderRadius: "50%", width: 30 }}
                     />
                     <p style={{ margin: 0 }}>SOL</p>
@@ -138,6 +140,7 @@ function Liquidity() {
                   <Flex alignItems="center" width="100px">
                     <img
                       src={bnbIcon}
+                      alt=""
                       style={{ borderRadius: "50%", width: 30 }}
                     />
                     <p style={{ margin: 0 }}>SOL</p>
