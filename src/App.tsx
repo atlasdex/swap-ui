@@ -14,6 +14,7 @@ import Navbar from "components/Navbar";
 // const Home = lazy(() => import("./views/Home"));
 const Swap = lazy(() => import("./views/Swap"));
 const Pools = lazy(() => import("./views/Pools"));
+const Bridge = lazy(() => import("./views/Bridge"));
 
 const App: React.FC = () => {
   useFetchPublicData();
@@ -32,6 +33,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/pools" exact>
               <Pools />
+            </Route>
+            <Route path="/bridge" exact>
+              <Bridge />
             </Route>
           </Switch>
         </Web3ReactManager>

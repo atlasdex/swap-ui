@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       background="#efefef"
       p="20px 0"
       borderBottom="solid 1px #333"
-      mb="20px"
+      height="60px"
     >
       <Box m="0 4% 0 1%">
         <Link style={{ textDecoration: "none" }} to="/">
